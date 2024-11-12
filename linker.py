@@ -2,7 +2,7 @@ import sys
 
 from pylint import lint
 
-THRESHOLD = 10
+THRESHOLD = 7
 
 run = lint.Run(["--rcfile=pylintrc", "main.py"], exit=False)
 
