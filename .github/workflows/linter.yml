@@ -11,6 +11,6 @@ jobs:
     - name: Install pylint
       run: pip install pylint
     
-    -name: Run linter.py on main.py
+    - name: Run linter.py on main.py
       run: python3 linter.py
       continue-on-error: false
